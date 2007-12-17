@@ -14,7 +14,6 @@ BuildRequires:	perl-devel
 #BuildRequires:	perl-Path-Class
 #BuildRequires:	sphinx
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Sphinx search engine API Perl client for Sphinx 0.9.8-svn-r871 and later.
