@@ -2,8 +2,8 @@
 
 Summary:	Sphinx search engine API Perl client
 Name:		perl-%{real_name}
-Version:	0.11
-Release:	%mkrel 2
+Version:	0.12
+Release:	%mkrel 1
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{real_name}
