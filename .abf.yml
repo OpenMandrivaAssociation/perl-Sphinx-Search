@@ -1,2 +1,4 @@
+removed_sources:
+  Sphinx-Search-0.240.1.tar.gz: bfb4a34333028bc5113470a8313839d1b6178841
 sources:
-  "Sphinx-Search-0.240.1.tar.gz": bfb4a34333028bc5113470a8313839d1b6178841
+  Sphinx-Search-0.28.tar.gz: 24011ab42afb55ff2d5036ecd792004320b82676
