@@ -1,6 +1,5 @@
 %define upstream_name    Sphinx-Search
-%define upstream_version 0.240.1
-
+%define upstream_version 0.28
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.28
 Release:	1
