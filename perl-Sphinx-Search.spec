@@ -1,15 +1,14 @@
 %define upstream_name    Sphinx-Search
-%define upstream_version 0.240.1
-
+%define upstream_version 0.28
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.28
+Release:	1
 
 Summary:	Sphinx search engine API Perl client
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JJ/JJSCHUTZ/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/J/JJ/JJSCHUTZ/Sphinx-Search-0.28.tar.gz
 
 #BuildRequires:	perl-Test-Pod-Coverage
 #BuildRequires:	perl-File-SearchPath
@@ -119,3 +118,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Nov 01 2007 Oden Eriksson <oeriksson@mandriva.com> 0.07-1mdv2008.1
 - initial Mandriva package 
+
