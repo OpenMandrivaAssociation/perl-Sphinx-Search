@@ -2,7 +2,7 @@
 %define upstream_version 0.28
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.28
-Release:	1
+Release:	2
 
 Summary:	Sphinx search engine API Perl client
 License:	GPL+ or Artistic
