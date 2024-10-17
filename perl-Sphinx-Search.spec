@@ -7,7 +7,7 @@ Release:	3
 Summary:	Sphinx search engine API Perl client
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://search.cpan.org/CPAN/authors/id/J/JJ/JJSCHUTZ/Sphinx-Search-0.28.tar.gz
 
 #BuildRequires:	perl-Test-Pod-Coverage
