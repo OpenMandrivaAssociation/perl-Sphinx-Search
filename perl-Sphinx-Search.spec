@@ -14,6 +14,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/J/JJ/JJSCHUTZ/Sphinx-Search-0.28
 #BuildRequires:	perl-File-SearchPath
 #BuildRequires:	perl-Path-Class
 #BuildRequires:	sphinx
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
