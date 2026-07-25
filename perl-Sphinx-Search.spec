@@ -1,14 +1,14 @@
 %define upstream_name    Sphinx-Search
-%define upstream_version 0.28
+%define upstream_version 0.31
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.28
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Sphinx search engine API Perl client
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JJ/JJSCHUTZ/Sphinx-Search-0.28.tar.gz
+Url:		https://metacpan.org/dist/Sphinx-Search
+Source0:	https://cpan.metacpan.org/authors/id/J/JJ/JJSCHUTZ/Sphinx-Search-0.31.tar.gz
 
 #BuildRequires:	perl-Test-Pod-Coverage
 #BuildRequires:	perl-File-SearchPath
