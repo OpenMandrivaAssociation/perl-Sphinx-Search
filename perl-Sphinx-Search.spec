@@ -1,8 +1,7 @@
 %define upstream_name    Sphinx-Search
-%define upstream_version 0.31
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.31
+Release:	2
 
 Summary:	Sphinx search engine API Perl client
 License:	GPL+ or Artistic
@@ -22,7 +21,7 @@ BuildArch:	noarch
 Sphinx search engine API Perl client for Sphinx 0.9.8-svn-r871 and later.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -54,9 +53,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Wed Jul 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.220.0-1mdv2010.0
 + Revision: 404394
-- rebuild using %%perl_convert_version
-
-* Sat May 09 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.22-1mdv2010.0
+- rebuild using %0.31 Sat May 09 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.22-1mdv2010.0
 + Revision: 373793
 - update to new version 0.22
 
