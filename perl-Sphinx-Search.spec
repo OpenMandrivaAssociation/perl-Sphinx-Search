@@ -2,7 +2,7 @@
 %define upstream_version 0.31
 Name:		perl-%{upstream_name}
 Version:	0.31
-Release:	1
+Release:	2
 
 Summary:	Sphinx search engine API Perl client
 License:	GPL+ or Artistic
@@ -22,7 +22,7 @@ BuildArch:	noarch
 Sphinx search engine API Perl client for Sphinx 0.9.8-svn-r871 and later.
 
 %prep
-%setup -q -n %{upstream_name}-%{version}
+%setup -q -n Sphinx-Search-0.31
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
