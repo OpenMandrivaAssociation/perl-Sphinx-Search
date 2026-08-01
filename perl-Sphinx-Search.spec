@@ -2,7 +2,7 @@
 %define upstream_version 0.31
 Name:		perl-%{upstream_name}
 Version:	0.31
-Release:	2
+Release:	3
 
 Summary:	Sphinx search engine API Perl client
 License:	GPL+ or Artistic
@@ -37,6 +37,9 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 %install
 %makeinstall_std
+
+%check
+make test || :
 
 %files
 %doc Changes README
